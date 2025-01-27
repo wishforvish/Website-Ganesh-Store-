@@ -61,7 +61,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/ganesh-store.git  
+git clone https://github.com/wishforvish/Website-Ganesh-Store- 
 Navigate to the project folder:
 bash
 Copy
