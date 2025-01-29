@@ -1,11 +1,8 @@
 //to add dataLayer 
-//window.dataLayer = { pageName:"HomePage", userType: "Guest",};
-
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    'event': 'pageView',
-    'pageUrl': window.location.href
-  });
+window.dataLayer = { 
+  pageName: "Ganesh Store", 
+  userType: "Guest"
+};
 
 
 const images = document.querySelectorAll('.category-card img');
