@@ -4,7 +4,6 @@ window.dataLayer = {
   userType: "Guest"
 };
 
-
 const images = document.querySelectorAll('.category-card img');
 // Loop through each image and add event listeners for zoom
 images.forEach(img => {
