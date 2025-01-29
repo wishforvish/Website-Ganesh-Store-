@@ -1,5 +1,12 @@
 //to add dataLayer 
-window.dataLayer = { pageName:"HomePage", userType: "Guest",};
+//window.dataLayer = { pageName:"HomePage", userType: "Guest",};
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'pageView',
+    'pageUrl': window.location.href
+  });
+
 
 const images = document.querySelectorAll('.category-card img');
 // Loop through each image and add event listeners for zoom
