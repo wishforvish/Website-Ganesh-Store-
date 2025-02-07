@@ -1,7 +1,8 @@
 //to add dataLayer 
 window.dataLayer = { 
   pageName: "Ganesh Store", 
-  userType: "Guest"
+  userType: "Guest",
+  userId: "0e04AFde9f225dE"
 };
 
 const images = document.querySelectorAll('.category-card img');
